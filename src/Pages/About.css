@@ -1,0 +1,217 @@
+/* General styles */
+.section {
+    padding: 60px 0;
+    /* Increased padding */
+    background-color: #0e0e0e;
+    /* Darker background */
+    color: #fff;
+}
+
+.intro,
+.about-intro,
+.team-intro {
+    text-align: center;
+    font-size: 50px;
+    /* Larger font size */
+    color: #fff;
+    /* White color for intro text */
+    margin-bottom: 60px;
+    /* Increased margin */
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Center content */
+}
+
+.about-content h3 {
+    text-align: center;
+    padding: 20px 0;
+    /* Increased padding */
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    /* Increased margin */
+}
+
+.team-member {
+    flex: 0 1 calc(30% - 20px);
+    /* Adjusted width */
+    text-align: center;
+    margin-bottom: 40px;
+    /* Increased margin */
+    background-color: #1f1f1f;
+    /* Darker background */
+    padding: 20px;
+    border-radius: 15px;
+    /* Increased border radius */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    /* Adjusted shadow */
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    /* Increased margin */
+    object-fit: cover;
+}
+
+.team-member h4 {
+    margin: 10px 0;
+    /* Increased margin */
+    color: #fff;
+    font-size: 1.6rem;
+    /* Increased font size */
+}
+
+.team-member p {
+    margin: 0;
+    color: #ccc;
+}
+
+.team-member a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #0077b5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.team-member a:hover {
+    color: #004471;
+}
+
+/* About.css */
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: #222;
+    /* Dark background */
+    color: #fff;
+    /* White text */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    /* Shadow effect */
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    /* Enable scrolling if content overflows */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-content p {
+    margin-bottom: 10px;
+}
+
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    /* White close button */
+    font-size: 24px;
+}
+
+.close:hover {
+    color: #ccc;
+    /* Hover color for close button */
+}
+
+a.linkedin-link {
+    text-align: center;
+    color: #0077b5;
+    /* LinkedIn blue color */
+    text-decoration: none;
+}
+
+a.linkedin-link:hover {
+    color: #004471;
+    /* Hover color for LinkedIn link */
+}
+
+.team-member button {
+    margin-top: 10px;
+    background-color: #0077b5;
+    /* LinkedIn blue color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.team-member button:hover {
+    background-color: #004471;
+    /* Darker shade of blue on hover */
+}
+
+/* About.css */
+/* Styles for the section displaying number of employees and clients */
+.about-statistics {
+    padding: 60px 0;
+    background-color: #0e0e0e;
+    color: #fff;
+    text-align: center;
+}
+
+.about-statistics .statistics-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-statistics .statistic {
+    padding: 20px;
+    background-color: #0e0e0e;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.about-statistics .statistic h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: end;
+}
+
+.about-statistics .statistic p {
+    font-size: 44px;
+    color: #fff;
+    margin: 0;
+}

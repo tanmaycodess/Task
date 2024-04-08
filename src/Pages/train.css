@@ -1,0 +1,85 @@
+.training-program {
+    background-color: #0e0e0e;
+    padding: 20px;
+}
+
+.training-program h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+}
+
+.training-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.training-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.training-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.slick-slide {
+    transition: opacity 0.5s ease;
+}
+
+.slick-slide:not(.slick-active) {
+    opacity: 0.5;
+}
+
+
+.further-details {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+    text-align: center;
+       
+}
+
+.further-details h2 {
+    padding-top: 40px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.further-details p {
+    color: #0e0e0e;
+    font-size: 16px; 
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 40px;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+
+.approach img{
+   margin-left: 200px;
+}
+
+@media (max-width: 768px) {
+    .approach img {
+        width: 80%;
+        max-width: auto;
+        margin-left: 80px;
+    }
+}

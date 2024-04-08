@@ -1,0 +1,80 @@
+/* Existing styles */
+.connect {
+    text-align: center;
+    font-size: 50px;
+    background-color: #0e0e0e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    color: #fff;
+}
+
+.contact-section {
+    padding: 60px 0;
+    background-color: #0e0e0e;
+    color: #fff;
+    /* Set text color to white */
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-details {
+    flex-basis: calc(50% - 15px);
+    text-align: left;
+}
+
+.phone-image {
+    flex-basis: calc(50% - 15px);
+    text-align: center;
+}
+
+.phone-image img {
+    max-width: 130%;
+    height: auto;
+}
+
+.contact-box,
+.address-box {
+    background-color: #1f1f1f;
+    /* Set background color of boxes to black */
+    color: #fff;
+    /* Set text color of boxes to white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(248, 248, 248, 0.948);
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-box h3,
+.address-box h3 , p {
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+    /* Set heading color to white */
+}
+
+.contact-details a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    /* Set link color to white */
+    transition: color 0.3s;
+}
+
+.contact-details a:hover {
+    color: rgb(16, 130, 16);
+    /* Change link color on hover */
+}
