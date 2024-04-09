@@ -105,13 +105,7 @@ function About() {
                             <>
                                 {/* <p>Business Transformation</p> */}
 
-                                <p>Divyendra Purohit is an SAP logistic solution architect. He has more
-                                    than 15 years of SAP experience, including multi-country implementations,
-                                    upgrades, and rollouts. He is a cofounder Insansa Technologies,
-                                    an SAP consulting startup. He is an SAP S/4HANA certified sales
-                                    and distribution consultant. He has worked on rebates (settlement
-                                    management) and commission management functionality with SAP
-                                    ERP, SAP S/4HANA, and Vistex.</p>
+                                <p>Divyendra Purohit is an accomplished SAP supply chain solution architect with over 18 years of experience in SAP, specializing in multi-country implementations, upgrades, and rollouts. As the co-founder of Insansa Technologies, a SAP consulting startup, he has played a pivotal role in delivering innovative solutions to clients. Divyendra is a certified SAP S/4HANA sales and distribution consultant, with a deep understanding of GTS and Vistex. Additionally, Divyendra is a respected author in the SAP community, having published a book on Rebate and Settlement Management in SAP S/4HANA through SAP Press.</p>
 
                                 <a href={getLinkedInLink(selectedMember)} target="_blank" className="linkedin-link">LinkedIn</a>
                             </>
