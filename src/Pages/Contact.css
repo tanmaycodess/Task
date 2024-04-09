@@ -41,8 +41,17 @@
 }
 
 .phone-image img {
+    display: block;
     max-width: 130%;
     height: auto;
+}
+
+/* Hide the phone image on screens narrower than 768px (typical tablet/mobile view) */
+@media (max-width: 768px) {
+    .phone-image {
+        display: none;
+        /* Hide the image on smaller screens */
+    }
 }
 
 .contact-box,
