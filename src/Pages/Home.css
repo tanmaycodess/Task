@@ -46,23 +46,46 @@
     transform: translate(-50%, -50%);
     color: #ffffff;
     z-index: 2;
-}
-
-@media (max-width: 768px) {
-    .bimg {
-        height: 400px;
-    }
-
-    .company-name h1 {
-        font-size: 25px;
-    }
+    text-align: center;
+    width: 90%;
+    /* Adjusted width for better fit */
 }
 
 .company-name h1 {
     color: #ffffff;
-    font-size: 65px;
-    
+    font-size: 4vw;
+    /* Responsive font size based on viewport width */
+    white-space: nowrap;
+    max-width: 100%;
+    /* Ensure the name doesn't exceed the container width */
 }
+
+/* Adjust for smaller screens (up to 768px) */
+@media (max-width: 768px) {
+    .company-name {
+        width: 100%;
+        /* Full width on smaller screens */
+    }
+
+    .company-name h1 {
+        font-size: 8vw;
+        /* Larger font size for better readability on mobile */
+    }
+
+    .bimg{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/* Adjust for larger screens (above 1200px) */
+@media (min-width: 1200px) {
+    .company-name h1 {
+        font-size: 60px;
+        /* Fixed font size for larger screens */
+    }
+}
+
 
 .heading{
     text-align: center;
