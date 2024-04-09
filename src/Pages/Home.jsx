@@ -11,7 +11,7 @@ import Raheja from '/images/Raheja.png';
 import Indus from '/images/Indus.png';
 import OTE from '/images/OTE.png';
 import TieTo from '/images/TieTO.png';
-import Luthra from '/images/Luthra.png';
+import Luthra from '/images/Luthra1.png';
 
 function Home() {
     const [currentService, setCurrentService] = useState(1);

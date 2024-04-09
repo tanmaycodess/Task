@@ -1,71 +1,100 @@
+/* General Navbar Styles */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
     background-color: #ffffff;
-    color: #fff;
+    padding: 10px 20px;
 }
 
-.navbar-logo-img{
-    width: 200px;
+.navbar-logo-img {
+    max-width: 100px;
     height: auto;
 }
 
-.navbar-nav {
+.navbar-right {
     display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    background-color: #0a7500;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Navbar Links and Dropdown for Desktop */
+.navbar-nav {
     list-style: none;
-    margin: 0;
     padding: 0;
+    display: flex;
 }
 
 .nav-item {
-    margin: 0 15px;
-    /* Adjust margin for spacing */
+    margin-right: 15px;
 }
 
 .nav-link {
-    color: #0a7500;
     text-decoration: none;
+    color: #333333;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
-.nav-link:hover {
-    color: #000;
-    font-size: 15px;
+
+.nav-link:hover{
+
+    color: #0a7500;
+
 }
 
-/* Media query for mobile */
-@media screen and (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        /* Change to column layout */
-        align-items: stretch;
-        /* Stretch items to fill container */
+/* Navbar Dropdown for Mobile */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar-right {
+        margin-left: auto;
     }
 
     .navbar-logo {
-        margin-bottom: 10px;
-        /* Adjust margin */
+        margin-right: 20px;
     }
 
     .navbar-nav {
+        display: none;
         flex-direction: column;
-        /* Change to column layout */
-        align-items: center;
-        /* Center align horizontally */
+        align-items: flex-start;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 1000;
     }
 
-    .nav-item {
-        margin: 10px 0;
-        /* Adjust margin */
+    .navbar-nav.open {
+        display: flex;
     }
-}
 
-.navbar-left p {
+    /* Adjust logo alignment for mobile */
+    .navbar-logo-img {
+        max-width: 80px;
+    }
 
-    text-decoration: none;
-    color: #fff;
-    font-size: 30px;
+    .nav-item{
+        margin-top: 8px;
+       
+    }
+
+    .nav-item .nav-link:hover{
+        font-size: 15px;
+    }
+    
 }

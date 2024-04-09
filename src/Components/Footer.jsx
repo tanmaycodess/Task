@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import insansa from '/images/insansa.png'
 
 function Footer() {
     const services = [
@@ -16,7 +17,8 @@ function Footer() {
                 <div className="footer-content">
                     <div className="footer-section about">
                         <Link to="/" className="footer-logo">
-                            Insansa
+                           {/* <img src={insansa} alt="logo" /> */}
+                           Insansa
                         </Link>
                         <p>Let's craft a service package tailored to your specific needs. Share a bit about your business, and we'll swiftly provide you with customized ideas.</p>
                         <div className="contact">

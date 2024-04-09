@@ -27,11 +27,10 @@ function Service() {
             </div>
 
             <div className="head">
-                <h3>Our</h3>
-                <h1>Services.</h1>
+                <h1>Our Services.</h1>
             </div>
 
-            <h1 className='heading'>Services</h1>
+            {/* <h1 className='heading'>Services</h1> */}
             {/* <div className="services-container">
                 <div className="services5">
                     <div className="service5" style={{ flex: currentService === 1 ? '1 0 100%' : '0 0 0', transition: 'flex 0.5s ease' }}>
